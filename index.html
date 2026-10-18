@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Nasima_Alizada</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="index.js" defer></script>
+  </head>
+
+  <body>
+    <section id="dashboard" class="dashboard">
+      <h1 class="dashboard-title">My Dashboard</h1>
+
+      <p class="dashboard-subtitle">Welcome to my Dashboard</p>
+
+      <!-- Profile Section -->
+      <div class="profile-section">
+        <button type="button" id="profile-btn" class="profile-btn">
+          Show My Profile
+        </button>
+
+        <div id="my-profile" class="my-profile hidden">
+          <h2>My Profile</h2>
+
+          <p><strong>Name:</strong> Nasima</p>
+
+          <p><strong>Profession:</strong> Web Developer</p>
+
+          <h3>My Skills</h3>
+
+          <ul class="profile-skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Bootstrap</li>
+            <li>Responsive Design</li>
+            <li>Git and GitHub</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Skill Search Section -->
+      <div class="skill-search">
+        <input
+          type="search"
+          id="search"
+          class="search"
+          placeholder="Search my skills..."
+        />
+
+        <div id="skillcontainer" class="skill-container">
+          <span class="skill">HTML</span>
+          <span class="skill">CSS</span>
+          <span class="skill">JavaScript</span>
+          <span class="skill">Bootstrap</span>
+          <span class="skill">Responsive Design</span>
+          <span class="skill">Git and GitHub</span>
+
+          <p id="noResult" class="no-result hidden">No Matching Skill Found!</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
